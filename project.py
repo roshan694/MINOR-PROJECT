@@ -4,7 +4,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
 import matplotlib.pyplot as plt
 
-data = pd.read_csv('Housing(1).csv')
+data = pd.read_csv('Housing project.csv')
 
 X = data[['bedrooms', 'bathrooms', 'stories', 'parking']]
 y = data['price']
